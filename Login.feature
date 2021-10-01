@@ -6,7 +6,7 @@ Feature: Login
   Quiero ingresar con credenciales user & pass
   Para asi poder utilizar el App AppMovil
 
-  
+
   Rule: el cliente debe ser mayor de edad o igual a 18 años
   # Uso de Background
   Background:
@@ -40,4 +40,4 @@ Feature: Login
       But El botón Login no debería estar presente en la página
       Examples:
       |email               |password|
-      |neyespejo@gmail.com | 123456 |
+      |neyespejo@gmail.com | 123457 |
